@@ -67,3 +67,4 @@ D:\BaoDuy\WinFormGame\Airplane\obj\Debug\net5.0-windows\Airplane.pdb
 D:\BaoDuy\WinFormGame\Airplane\obj\Debug\net5.0-windows\Airplane.genruntimeconfig.cache
 D:\BaoDuy\WinFormGame\Airplane\obj\Debug\net5.0-windows\ref\Airplane.dll
 D:\BaoDuy\WinFormGame\airplane\obj\Debug\net5.0-windows\Airplane.frmPlay.resources
+D:\BaoDuy\WinFormGame\Airplane\bin\Debug\net5.0-windows\appsettings.json
