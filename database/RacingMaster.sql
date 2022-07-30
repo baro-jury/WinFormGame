@@ -1,10 +1,10 @@
 USE [master]
 GO
-DROP DATABASE [Airplane]
+DROP DATABASE [RacingMaster]
 GO
-CREATE DATABASE [Airplane]
+CREATE DATABASE [RacingMaster]
 GO
-USE [Airplane]
+USE [RacingMaster]
 GO
 CREATE TABLE [Account](
 	[userName] [nvarchar](255) NOT NULL,
@@ -16,10 +16,10 @@ GO
 CREATE TABLE [Score](
 	[score_id] [int] IDENTITY(1,1) NOT NULL,
 	[userName] [nvarchar](255) NOT NULL FOREIGN KEY ([userName]) REFERENCES [Account]([userName]),
-	[score] [int] NOT NULL,
-	[order_date] [datetime] NOT NULL,
+	[highscore] [int] NOT NULL,
+	[time] [datetime] NOT NULL,
 	CONSTRAINT [score_pk] PRIMARY KEY ([score_id])
 );
 GO
-INSERT [Score] ([userName], [score], [order_date]) VALUES (N'Admin', 100, GETDATE())
+INSERT [Score] ([userName], [highscore], [time]) VALUES (N'Admin', 100, GETDATE())
 ------------------------------------------------------------------------------------------

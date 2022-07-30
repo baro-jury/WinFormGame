@@ -1,7 +1,6 @@
 D:\BaoDuy\WinFormGame\RacingMaster\obj\Debug\net5.0-windows\RacingMaster.csproj.AssemblyReference.cache
 D:\BaoDuy\WinFormGame\RacingMaster\obj\Debug\net5.0-windows\RacingMaster.frmGamePlay.resources
 D:\BaoDuy\WinFormGame\RacingMaster\obj\Debug\net5.0-windows\RacingMaster.frmIntroduce.resources
-D:\BaoDuy\WinFormGame\RacingMaster\obj\Debug\net5.0-windows\RacingMaster.frmPlay.resources
 D:\BaoDuy\WinFormGame\RacingMaster\obj\Debug\net5.0-windows\RacingMaster.frmScore.resources
 D:\BaoDuy\WinFormGame\RacingMaster\obj\Debug\net5.0-windows\RacingMaster.Properties.Resources.resources
 D:\BaoDuy\WinFormGame\RacingMaster\obj\Debug\net5.0-windows\RacingMaster.csproj.GenerateResource.cache

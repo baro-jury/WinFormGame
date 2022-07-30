@@ -17,7 +17,7 @@ namespace RacingMaster
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmGamePlay());
+            Application.Run(new frmIntroduce());
         }
     }
 }

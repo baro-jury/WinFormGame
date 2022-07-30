@@ -7,9 +7,6 @@
     <Compile Update="frmIntroduce.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="frmPlay.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Update="frmScore.cs">
       <SubType>Form</SubType>
     </Compile>

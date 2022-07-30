@@ -9,8 +9,8 @@ namespace RacingMaster.Models
     {
         public int ScoreId { get; set; }
         public string UserName { get; set; }
-        public int Score1 { get; set; }
-        public DateTime OrderDate { get; set; }
+        public int Highscore { get; set; }
+        public DateTime Time { get; set; }
 
         public virtual Account UserNameNavigation { get; set; }
     }

@@ -7,13 +7,13 @@ using Microsoft.Extensions.Configuration;
 
 namespace RacingMaster.Models
 {
-    public partial class AirplaneContext : DbContext
+    public partial class RacingMasterContext : DbContext
     {
-        public AirplaneContext()
+        public RacingMasterContext()
         {
         }
 
-        public AirplaneContext(DbContextOptions<AirplaneContext> options)
+        public RacingMasterContext(DbContextOptions<RacingMasterContext> options)
             : base(options)
         {
         }
@@ -54,11 +54,11 @@ namespace RacingMaster.Models
 
                 entity.Property(e => e.ScoreId).HasColumnName("score_id");
 
-                entity.Property(e => e.OrderDate)
-                    .HasColumnType("datetime")
-                    .HasColumnName("order_date");
+                entity.Property(e => e.Highscore).HasColumnName("highscore");
 
-                entity.Property(e => e.Score1).HasColumnName("score");
+                entity.Property(e => e.Time)
+                    .HasColumnType("datetime")
+                    .HasColumnName("time");
 
                 entity.Property(e => e.UserName)
                     .IsRequired()

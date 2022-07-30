@@ -155,7 +155,7 @@
             this.pbRoad1.Image = global::RacingMaster.Properties.Resources.road;
             this.pbRoad1.Location = new System.Drawing.Point(0, -550);
             this.pbRoad1.Name = "pbRoad1";
-            this.pbRoad1.Size = new System.Drawing.Size(458, 550);
+            this.pbRoad1.Size = new System.Drawing.Size(458, 560);
             this.pbRoad1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbRoad1.TabIndex = 0;
             this.pbRoad1.TabStop = false;
@@ -210,7 +210,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Image = global::RacingMaster.Properties.Resources.flags;
             this.pictureBox1.Location = new System.Drawing.Point(200, 574);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(80, 70);
